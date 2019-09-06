@@ -1,11 +1,13 @@
-def u_data(name,age,city):
-    result = '{}, {} год(а), проживает в городе {}'.format(name,age,city)
+def u_data(name,age,city, country):
+    result = '{}, {} год(а), проживает в городе {}, страна {}'.format(name,age,city, country)
     return result
 name = input('Укажите имя ')
 age = input ('Укажите возраст ')
 city = input ('укажите город ')
-result = u_data(name,age,city)
+country = 'Russia'
+result = u_data(name,age,city, country)
 print (result)
+
 
 
 
